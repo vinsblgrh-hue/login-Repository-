@@ -28,17 +28,7 @@ def register():
 
 # ---------------- LOGIN ----------------
 def login():
-    # username = input("Enter username: ")
-    # password = input("Enter password: ")
-
-    # sql = "SELECT * FROM users WHERE username=%s AND password=%s"
-    # cursor.execute(sql, (username, password))
-    # result = cursor.fetchone()
-
-    # if result:
-    #     print("Login successful! Welcome", username)
-    # else:
-    #     print("Invalid username or password")
+    
  attempts = 3
 
  while attempts > 0:
